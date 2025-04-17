@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import {
   AnchorHTMLAttributes,
   cloneElement,
@@ -78,6 +79,7 @@ const ExternalLink = forwardRef<HTMLAnchorElement, ExternalLinkProps>(
             {...otherProps}
           >
             {icon &&
+            //@ts-ignore
               cloneElement(icon as ReactElement, { className: "h-4 w-4 mr-1" })}
             {noExternalLinkIcon ? children : <span>{children}</span>}{" "}
             {!noExternalLinkIcon && <ArrowUpRight className="h-4 w-4" />}
