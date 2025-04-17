@@ -13,8 +13,8 @@ export const Projetos = [
   },
   {
     index: "3",
-    project: "This project marked my introduction to Next.js—a hands-on exploration of the framework’s core features and unique capabilities. Built as a learning experiment, it helped me grasp key concepts like server-side rendering, API integration, and dynamic routing, while uncovering what sets Next.js apart from traditional React.",
-    name: "Football Team News Blog",
-    url: "https://github.com/GabrielCarelli/BlogSunderland",
+    project: "This project helped me to understand the deployment a little bit more, because was the first time that i deployed a project to vercel.",
+    name: "AnimeHub",
+    url: "https://watchanime-jade.vercel.app/",
   },
 ];
